@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Anderson Macedo | Desenvolvedor Web</title>
+<meta charset="UTF-8">
+<meta name="description" content="Desenvolvedor Front End Freelancer">
+<meta name="autor" content="Anderson Macedo">
+<meta name="keywords" content="HTML, CSS, XHTML, JavaScript, UX, UI, Serviços, ASSINE JÁ, Freelancer, Itaquaquecetuba, Póa, Anderson, XHTML, JavaScript, Experiência, em-desenvolvimento-web, desde projetos do zero, Desenvolvedor Web, Desenvolvedor Front End, Planos, criacao de sites, criação de sites, Anderson Macedo Desenvolvedor Itaquaquecetuba">
+<meta name="robots" content="index, nofllow">
+<link rel="icon" href="img/Capturar.PNG" type="image/x-icon">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src='https://maps.googleapis.com/maps/api/js?v=3.exp&callback=initMap'></script>
+<!--[if lt IE 9]>
+	<script src="bower_components/html5shiv/dist/html5shiv.js"></script>
+<![endif]-->
+
+/*<script>
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-102998007-1', 'auto');
+    ga('send', 'pageview');
+</script>*/
+<style>
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: "Raleway", sans-serif
+    }
+    
+    body,
+    
+    html {
+        height: 100%;
+        line-height: 1.8;
+    }
+    /* Full height image header */
+    .bgimg-1 {
+        background-position: center;
+        background-size: cover;
+        background-image: url("img/mac.jpg");
+        min-height: 100%;
+    }
+    .w3-bar .w3-button {
+        padding: 16px;
+    }
+    html body #pricing.w3-container.w3-center-w3-dark-grey,
+    a,
+    h3 {
+        text-decoration: none;
+    }
+</style>
+</head>
+<body>
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+        <div class="w3-bar w3-white w3-card-2" id="myNavbar">
+            <a href="#home" class="w3-bar-item w3-button w3-wide">Anderson Macedo | Web Developer</a>
+            <!-- Right-sided navbar links -->
+            <div class="w3-right w3-hide-small">
+                <a href="#about" class="w3-bar-item w3-button">SOBRE MIM</a>
+                <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-th"></i> PROJETOS</a>
+                <a href="#pricing" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> PREÇOS</a>
+                <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTATO</a>
+            </div>
+            <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+            <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()" <i class="fa fa-bars"></i>
+                <i class="fa fa-th"></i>
+                <i class="fa fa-usd"></i>
+                <i class="fa fa-envelope"></i>
+            </a>
+        </div>
+    </div>
+    <!-- Sidebar on small screens when clicking the menu icon -->
+    <nav class="w3-sidebar w3-bar-block w3-black w3-card-2 w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+        <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+        <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">SOBRE</a>
+        <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">PROJETOS</a>
+        <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">PREÇOS</a>
+        <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTATO</a>
+    </nav>
+    <!-- Header with full-height image -->
+    <header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+        <div class="w3-display-left w3-text-white" style="padding:48px">
+            <span class="w3-jumbo w3-hide-small">Faça algo importante!</span><br>
+            <span class="w3-xxlarge w3-hide-large w3-hide-medium">Faça algo importante!</span><br>
+            <span class="w3-large">Pare de desperdiçar seu valioso tempo com projetos, eu faço isso pra você.</span>
+            <p><a href="#pricing" class="w3-bar-item w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Saiba mais e comece hoje!</a></p>
+        </div>
+        <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
+            <a href="https://www.facebook.com/anderson.macedo.77964" alt="facebook-anderson-macedo" target="_blank"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+            <a href="https://www.instagram.com/andersonmacedo1782" alt="instagram-Anderson-Macedo" target="_blank"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+            <a href="https://br.pinterest.com/andersonmac8030" alt="pinterest-Anderson-Macedo" target="_blank"><i class="fa fa-pinterest-p w3-hover-opacity"></i></a>
+            <a href="https://twitter.com/Anderson0070077" alt="twitter-Anderson-Macedo" target="_blank"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+            <a href="https://www.linkedin.com/in/anderson-macedo-065a3264" alt="linkedin-Anderson-Macedo" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+            <a href="https://github.com/settings/profile" alt="github-Anderson-Macedo" alt="github-anderson-macedo" target="_blank"><i class="fa fa-github w3-hover-opacity"></i></a>
+        </div>
+    </header>
+    <!-- About Section -->
+    <div class="w3-container" style="padding:128px 16px" id="about">
+        <h3 class="w3-center">Sobre Mim</h3>
+        <p class="w3-center w3-large">Minhas Especialidades</p>
+        <div class="w3-row-padding w3-center" style="margin-top:64px">
+            <div class="w3-quarter">
+                <i class="fa fa-code w3-margin-bottom w3-jumbo"></i>
+                <p class="w3-large">Código</p>
+                <p>Projeto com HTML(5), CSS(3) e um toque de Javascript.Adoro codificar coisas do zero, mas posso trabalhar com frameworks front-end como Bootstrap também.</p>
+            </div>
+            <div class="w3-quarter">
+                <i class="fa fa-diamond w3-margin-bottom w3-jumbo"></i>
+                <p class="w3-large">Idéias</p>
+                <p>Eu colaboro com Clientes para nutrir e transformar idéias em especificações de design bem pensadas.Afinal é ai que começa a maioria das experiências incríveis do usuario final.</p>
+            </div>
+            <div class="w3-quarter">
+                <i class="fa fa-magic w3-margin-bottom w3-jumbo"></i>
+                <p class="w3-large">UX/UI</p>
+                <p>Esboço interfaces de wireframe focando na estrutura de conteúdo, pradrões intuitivos de UI e interações simples.Eu sou um minimalista <em>"acredito realmente que menos é mais."</em></p>
+            </div>
+            <div class="w3-quarter">
+                <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
+                <p class="w3-large">SUPORTE</p>
+                <p>Sempre ajudando os clientes, em pradrões de conteúdo, dando o suporte em analise de dados continuos sempre visando a usabilidade e retorno de marketing digital.</p>
+            </div>
+        </div>
+    </div>
+    <!-- Promo Section - "We know design" -->
+    <div class="w3-container w3-light-grey" style="padding:128px 16px">
+        <div class="w3-row-padding">
+            <div class="w3-col m6">
+                <h3>Conheçendo o caminho do design perfeito.</h3>
+                <p>Existe um milhão de motivos para você não acreditar no design inteligente, e apenas um para você crer, e é indução.</p>
+                <p><a href="#work" class="w3-button w3-black"><i class="fa fa-th"> </i> Veja meus Trabalhos</a></p>
+            </div>
+            <div class="w3-col m6">
+                <img class="w3-image w3-round-large" src="img/phone_buildings.jpg" alt="Buildings" width="700" height="394">
+            </div>
+        </div>
+    </div>
+    <!-- Promo Section "Statistics" -->
+    <div class="w3-container w3-row w3-center w3-dark-grey w3-padding-64">
+        <div class="w3-quarter">
+            <span class="w3-xxlarge">+13</span>
+            <br>Parceiros
+        </div>
+        <div class="w3-quarter">
+            <span class="w3-xxlarge">+35</span>
+            <br>Projetos feitos
+        </div>
+        <div class="w3-quarter">
+            <span class="w3-xxlarge">+29</span>
+            <br>Clientes felizes
+        </div>
+        <div class="w3-quarter">
+            <span class="w3-xxlarge">+78</span>
+            <br>Encontros
+        </div>
+    </div>
+    <!-- Work Section -->
+    <div class="w3-container" style="padding:128px 16px" id="work">
+        <h3 class="w3-center">Projetos</h3>
+        <p class="w3-center w3-large">O que fiz pelas pessoas</p>
+        <div class="w3-row-padding" style="margin-top:64px">
+            <div class="w3-col l3 m6">
+                <a href="http://www.estudiopanka.com" alt="pankas" target="_blank"><img src="img/pankas.PNG" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Panka"></a>
+            </div>
+            <div class="w3-col l3 m6">
+                <a href="https://www.modayacamim.com.br/loja" alt="moda" target="_blank"><img src="img/yacamim.PNG" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="yacamin"></a>
+            </div>
+            <div class="w3-col l3 m6">
+                <a href="http://www.gutobordoni.com.br" alt="guto" target="_blank"><img src="img/guto.PNG" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Guto"></a>
+            </div>
+            <div class="w3-col l3 m6">
+                <a href="https://www.leofaria.com.br" alt="leo" target="_blank"><img src="img/leo.PNG" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Leo"></a>
+            </div>
+        </div>
+        <div class="w3-row-padding w3-section">
+            <div class="w3-col l3 m6">
+                <a href="http://www.nude.art.br/" alt="nude" target="_blank"><img src="img/nude.PNG" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="nude"></a>
+            </div>
+            <div class="w3-col l3 m6">
+                <a href="photografy/index.html" alt="site-photografy" target="_blank"><img src="img/tech_camera.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A camera"></a>
+            </div>
+            <div class="w3-col l3 m6">
+                <a href="http://www.garoafoto.com" alt="garoa" target="_blank"><img src="img/garoa.PNG" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="garoa"></a>
+            </div>
+            <div class="w3-col l3 m6">
+                <a href="https://www.viniciusstasolla.com.br" alt="vinivi" target="_blank"><img src="img/vinicius.PNG" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="vinicius"></a>
+            </div>
+        </div>
+    </div>
+    <!-- Modal for full size images on click-->
+    <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+        <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+        <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+            <img id="img01" class="w3-image">
+            <p id="caption" class="w3-opacity w3-large"></p>
+        </div>
+    </div>
+    <!-- Skills Section -->
+    <div class="w3-container w3-light-grey w3-padding-64">
+        <div class="w3-row-padding">
+            <div class="w3-col m6">
+                <h3>Minhas Habilidades.</h3>
+                <p>Experiência em desenvolvimento web, desde projetos do zero<br>a atualização de conteudo, melhores performace</p>
+                <p>analise e gerenciamento de resultados pela<br>busca e otimização de conteúdo usando google analytics.</p>
+            </div>
+            <div class="w3-col m6">
+                <p class="w3-wide"><i class="fa fa-desktop w3-margin-right"></i>Desenvolvimento Web</p>
+                <div class="w3-grey">
+                    <div class="w3-container w3-dark-grey w3-center" style="width:90%">90%</div>
+                </div>
+                <p class="w3-wide"><i class="fa fa-bar-chart w3-margin-right"></i>Marketing Digital</p>
+                <div class="w3-grey">
+                    <div class="w3-container w3-dark-grey w3-center" style="width:85%">85%</div>
+                </div>
+                <p class="w3-wide"><i class="fa fa-paste w3-margin-right"></i>Web Designer</p>
+                <div class="w3-grey">
+                    <div class="w3-container w3-dark-grey w3-center" style="width:75%">75%</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Pricing Section -->
+    <div class="w3-container w3-center w3-dark-grey" style="padding:128px 16px" id="pricing">
+        <a href="#pricing"><h3>PLANOS MENSAIS</h3></a>
+        <p class="w3-large">Escolha um plano que corresponda às suas necessidades.</p>
+        <div class="w3-row-padding" style="margin-top:64px">
+            <div class="w3-third w3-section">
+                <ul class="w3-ul w3-white w3-hover-shadow">
+                    <li class="w3-black w3-xlarge w3-padding-32">Basico</li>
+                    <li class="w3-padding-16"><b>1</b> Site</li>
+                    <li class="w3-padding-16"><b>0</b> Emails</li>
+                    <li class="w3-padding-16"><b>1</b> Dominio</li>
+                    <li class="w3-padding-16"><b>Sem</b> Suporte</li>
+                    <li class="w3-padding-16">
+                        <h2 class="w3-wide">R$100,00</h2>
+                        <span class="w3-opacity">MENSAIS</span>
+                    </li>
+                    <li class="w3-light-grey w3-padding-24">
+                        <button class="w3-button w3-black w3-padding-large">ASSINE JÁ</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="w3-third">
+                <ul class="w3-ul w3-white w3-hover-shadow">
+                    <li class="w3-red w3-xlarge w3-padding-48">Profissional</li>
+                    <li class="w3-padding-16"><b>1</b> Site/Hospedagem</li>
+                    <li class="w3-padding-16"><b>1</b> Emails</li>
+                    <li class="w3-padding-16"><b>1</b> Dominio/Marketing</li>
+                    <li class="w3-padding-16"><b>Com</b> Suporte</li>
+                    <li class="w3-padding-16">
+                        <h2 c lass="w3-wide">R$250,00</h2>
+                        <span class="w3-opacity">MENSAIS</span>
+                    </li>
+                    <li class="w3-light-grey w3-padding-24">
+                        <button class="w3-button w3-black w3-padding-large">ASSINE JÁ</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="w3-third w3-section">
+                <ul class="w3-ul w3-white w3-hover-shadow">
+                    <li class="w3-black w3-xlarge w3-padding-32">Premium</li>
+                    <li class="w3-padding-16"><b>1</b> Site/loja Virtual</li>
+                    <li class="w3-padding-16"><b>1</b> Email+Google Analitycs</li>
+                    <li class="w3-padding-16"><b>1</b> Dominio/Hospedagem</li>
+                    <li class="w3-padding-16"><b>Com</b> Suporte/Marketing</li>
+                    <li class="w3-padding-16">
+                        <h2 class="w3-wide">R$400,00</h2>
+                        <span class="w3-opacity">MENSAIS</span>
+                    </li>
+                    <li class="w3-light-grey w3-padding-24">
+                        <button class="w3-button w3-black w3-padding-large">ASSINE JÁ</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Contact Section -->
+    <div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
+        <h3 class="w3-center"><a>CONTATO</a></h3>
+        <p class="w3-center w3-large">Vou entrar em contato. Envie-me uma mensagem:</p>
+        <div class="w3-row-padding" style="margin-top:64px">
+            <div class="w3-half">
+                <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Itaquaquecetuba, SP</p>
+                <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Telefone: (11)99427-2257</p>
+                <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: andersonmacedo1782@hotmail.com</p>
+                <br>
+                <form action="/action_page.php" target="_blank">
+                    <p><input class="w3-input w3-border" type="text" placeholder="Nome" required name="Nome"></p>
+                    <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
+                    <p><input class="w3-input w3-border" type="text" placeholder="Assunto" required name="Assunto"></p>
+                    <p><input class="w3-input w3-border" type="text" placeholder="Mensagem" required name="Mensagem"></p>
+                    <p><button class="w3-button w3-black" type="submit"><i class="fa fa-paper-plane"></i> Enviar Mensagem</button></p>
+                </form>
+            </div>
+            <div class="w3-half">
+                <!-- Add Google Maps -->
+                <div id="googleMap" class="w3-greyscale" style="width:100%;height:510px;"></div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="w3-center w3-black w3-padding-64">
+        <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>Subir ao topo</a>
+        <div class="w3-xlarge w3-section">
+            <a href="https://www.facebook.com/anderson.macedo.77964" alt="facebook-anderson-macedo" target="_blank"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+            <a href="https://www.instagram.com/andersonmacedo1782" alt="instagram-anderson-macedo" target="_blank"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+            <a href="https://br.pinterest.com/andersonmac8030" alt="pinterest-anderson-macedo" target="_blank"><i class="fa fa-pinterest-p w3-hover-opacity"></i></a>
+            <a href="https://twitter.com/Anderson0070077" alt="twitter-anderson-macedo" target="_blank"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+            <a href="https://www.linkedin.com/in/anderson-macedo-065a3264" alt="linkedin-anderson-macedo" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+            <a href="https://github.com/settings/profile" alt="github-anderson-macedo" target="_blank"><i class="fa fa-github w3-hover-opacity"></i></a>
+        </div>
+        <p>Anderson Macedo 2017 &copy; todos direitos reservados.</p>
+    </footer>
+    <!-- Add Google Maps -->
+    <img src='https://www.google.com.br/maps/place/R.+Cambar%C3%A1+Orli+-+Jardim+Aracare,+Itaquaquecetuba+-+SP/@-23.5051978,-46.3592254,17z/data=!3m1!4b1!4m5!3m4!1s0x94ce7b494324c531:0x59b5adf6cd83f0fe!8m2!3d-23.5051978!4d-46.3570367'>
+    
+</body>
+</html>
